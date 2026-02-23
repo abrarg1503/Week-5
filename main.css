@@ -1,0 +1,33 @@
+
+:root {
+  --primary-color: #4361ee;
+  --secondary-color: #3a0ca3;
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --spacing: 1rem;
+}
+
+.theme-dark {
+  --background-color: #121212;
+  --text-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+}
